@@ -1,17 +1,15 @@
 import "./App.css";
 import Encabezado from "./encabezado"
+import Contenedor from "./contenedor"
 import Expreciones from "./Expreciones"
 
-function App(){
+function App() {
   return (
-    
-  <div>
-    <Encabezado />
-    <Expreciones/>
-    <h1>5C DSM</h1>
-    <h2>hector morales soto</h2>
-  </div>
-  
- )
+    <>
+      <Encabezado />
+      <Contenedor/>
+    </>
+  );
 }
-export default App
+
+export default App;
