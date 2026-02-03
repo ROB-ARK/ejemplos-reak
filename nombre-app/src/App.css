@@ -149,7 +149,7 @@ body {
 .contenedor-izq,
 .contenedor-der {
   flex: 2;
-  background-color: #e7fdff;
+  background-color: #ffffff;
   border-radius: 12px;
 }
 .cards-full {
@@ -161,20 +161,16 @@ body {
   margin-left: calc(-50vw + 50%);
 }
 
-.texto-horizontal {
-  max-width: 800px;
-  text-align: left;
-  padding: 1rem;
+
+.contenedor-horizontal h3 {
+  line-height: 1.6;
+  max-width: 650px;
 }
 
-.texto-horizontal h3 {
-  margin: 0;
-  font-size: 2rem;
+.contenedor-horizontal p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 680px;
 }
 
-.texto-horizontal p {
-  margin-top: 1rem;
-  font-size: 1rem;
-  color: #444;
-}
 

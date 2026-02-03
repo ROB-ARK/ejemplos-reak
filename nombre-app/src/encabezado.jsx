@@ -8,7 +8,7 @@ import miImagen6 from './assets/youtu.jpg';
 
 
 function Encabezado(){
-    return (
+    return ( 
         <header className="encabezado">
             <Logotipo />
             <Menu />

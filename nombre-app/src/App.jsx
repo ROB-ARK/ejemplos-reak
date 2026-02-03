@@ -1,13 +1,16 @@
 import "./App.css";
-import Encabezado from "./encabezado"
-import Contenedor from "./contenedor"
-import Expreciones from "./Expreciones"
+import Encabezado from "./encabezado";
+import ContenedorCards from "./contenedor";
+import ContHorizo from "./conthorizo";
+import PieDePg from "./piedepg";
 
 function App() {
   return (
     <>
       <Encabezado />
-      <Contenedor/>
+      <ContenedorCards />
+      <ContHorizo name ='' />
+      <PieDePg />
     </>
   );
 }
