@@ -81,20 +81,12 @@
 }
 
 
-
-
 body {
   margin: 0;
     width: 100vw;
     background-color: #e0e0e0;
   padding-top: 140px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-#root {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .contenedor-principal {
@@ -134,24 +126,6 @@ body {
  
 }
 
-.contenedor-doble {
-  width: 100vw;
-  height: 260px;
-  display: flex;
-  gap: 2rem;
-  padding: 2rem;
-  box-sizing: border-box;
-  background-color: #ffecdc;
-  margin-top: 2rem;
-  margin-left: calc(-50vw + 50%);
-}
-
-.contenedor-izq,
-.contenedor-der {
-  flex: 2;
-  background-color: #ffffff;
-  border-radius: 12px;
-}
 .cards-full {
   width: 100vw;
   display: flex;
@@ -174,3 +148,140 @@ body {
 }
 
 
+.seccion {
+  width: 100%;
+  padding: 4rem 6rem;
+  box-sizing: border-box;
+  background-color: #ffecdc;
+  margin-bottom: 3rem;
+  border-radius: 16px;
+}
+
+.seccion h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 32px;
+}
+
+.seccion p {
+  text-align: left;
+  line-height: 1.7;
+  font-size: 16px;
+  max-width: 900px;
+}
+
+.seccion ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.seccion ul li {
+  margin-bottom: 0.5rem;
+}
+
+.productos {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.producto {
+  flex: 1;
+  background-color: #e0e0e0;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.producto h3 {
+  margin-bottom: 0.5rem;
+}
+
+.galeria {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.galeria-item {
+  flex: 1;
+  height: 180px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 22px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card a {
+  margin-top: auto;
+  color: #646cff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.tabla-contacto {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+.tabla-contacto th,
+.tabla-contacto td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.tabla-contacto th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+.galeria-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.proyecto1 {
+  background-image: url("./assets/TIC.png");
+}
+
+.proyecto2 {
+  background-image: url("./assets/TIC.png");
+}
+
+.proyecto3 {
+  background-image: url("./assets/TIC.png");
+}
+
+.proyecto4 {
+  background-image: url("./assets/TIC.png");
+}
